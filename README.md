@@ -1,16 +1,24 @@
-### Hi there 👋
+from Github import GithubReadme
 
-<!--
-**Void200718/Void200718** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+class Void:
+    def __init__(self):
+        self.name = "Void"
+        self.age = "14"
+        self.location = "Mars, With Elon Musk"
+        self.work = "Developers"
+        self.system = "Macbook Air"
+        
+    def skills(self):
+        self.languages = {
+            "main": ["Python"]
+            "learning": ["Python"]
+        }
+        
+        self.works = ["Antinuke bots", "Token gen", "Nuke Bots", "Multi token tools"]
+        
+    def social_media(self):
+        self.discord = "Void.#5677"
+        self.onlyfans = None
+        
+if __name__ = "__main__":
+    readme = GithubReadme.create(Void)
