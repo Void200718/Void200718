@@ -5,20 +5,20 @@ class Void:
         self.name = "Void"
         self.age = "14"
         self.location = "Mars, With Elon Musk"
-        self.work = "Developers"
-        self.system = "Macbook Air"
-        
+        self.work = "Developer"
+        self.system = "Windows 10, x64"
+
     def skills(self):
         self.languages = {
-            "main": ["Python"]
+            "main": ["Python",],
             "learning": ["Python"]
         }
-        
-        self.works = ["Antinuke bots", "Token gen", "Nuke Bots", "Multi token tools"]
-        
+
+        self.works = ['Token Generator', 'Antinuke bot', 'Discord token tool', 'Nuke bots', 'etc...']
+    
     def social_media(self):
         self.discord = "Void.#5677"
         self.onlyfans = None
-        
-if __name__ = "__main__":
-    readme = GithubReadme.create(Void)
+
+
+if __name__ == "__main__":
